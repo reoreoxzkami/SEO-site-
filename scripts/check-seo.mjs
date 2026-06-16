@@ -24,6 +24,7 @@ for (const [path, file, canonical] of pages) {
 }
 
 const home = await readFile('public/index.html', 'utf8');
+checks.push(['home Google site verification', /<meta name="google-site-verification" content="9IWAlyyA4QDgpjt2KgggaqEGcY95-zjR8CedyThV4IA" \/>/i.test(home)]);
 checks.push(['home JSON-LD graph', /"@graph"/i.test(home)]);
 checks.push(['home Organization schema', /"@type":"Organization"/i.test(home)]);
 checks.push(['home WebSite schema', /"@type":"WebSite"/i.test(home)]);
