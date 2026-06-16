@@ -1,0 +1,9 @@
+# SEO First Cloudflare Site
+
+This site explains SEO-focused Cloudflare Pages website production in Japanese.
+
+## Key URLs
+- /: Main service landing page
+- /services/: SEO internal optimization service details
+- /seo-checklist/: Pre-launch SEO checklist
+- /case-studies/: SEO improvement examples

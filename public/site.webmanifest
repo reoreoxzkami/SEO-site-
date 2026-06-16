@@ -1,0 +1,9 @@
+{
+  "name": "SEO First Cloudflare Site",
+  "short_name": "SEO First",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "description": "SEOを最優先に設計したCloudflare Pages向けの高速静的サイト。"
+}
