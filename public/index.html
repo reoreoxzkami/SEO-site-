@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEOに強いCloudflare Pagesサイト制作 | 高速・構造化データ対応</title>
+  <meta name="description" content="Cloudflare Pagesで将来デプロイしやすい、SEOを最優先に設計した高速静的サイト。構造化データ、OGP、サイトマップ、Core Web Vitalsを意識したテンプレートです。">
+  <link rel="canonical" href="https://www.example.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#0f766e">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="SEO First Cloudflare Site">
+  <meta property="og:title" content="SEOに強いCloudflare Pagesサイト制作">
+  <meta property="og:description" content="高速表示、検索意図、構造化データを重視したCloudflare Pages向けSEOサイト。">
+  <meta property="og:url" content="https://www.example.com/">
+  <meta property="og:image" content="https://www.example.com/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SEOに強いCloudflare Pagesサイト制作">
+  <meta name="twitter:description" content="SEOを最優先に設計した高速静的サイトテンプレート。">
+  <meta name="twitter:image" content="https://www.example.com/og-image.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/styles.css" as="style">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "SEO First Cloudflare Site",
+    "url": "https://www.example.com/",
+    "description": "SEOを最優先に設計したCloudflare Pages向け高速静的サイト。",
+    "areaServed": "JP",
+    "serviceType": "SEOサイト制作",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "JPY"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Cloudflare PagesはSEOに向いていますか？",
+        "acceptedAnswer": {"@type": "Answer", "text": "静的HTMLを高速に配信できるため、Core Web Vitalsを改善しやすくSEOと相性が良い構成です。"}
+      },
+      {
+        "@type": "Question",
+        "name": "このサイトは何を変更すれば公開できますか？",
+        "acceptedAnswer": {"@type": "Answer", "text": "canonical、OGP URL、robots.txt、sitemap.xml、_redirects内のexample.comを本番ドメインに置き換えてCloudflare Pagesに接続します。"}
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="主要ナビゲーション">
+      <a class="logo" href="/" aria-label="SEO First Cloudflare Site ホーム">SEO First</a>
+      <div class="nav-links">
+        <a href="#features">特徴</a>
+        <a href="#process">制作方針</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <p class="eyebrow">Cloudflare Pages Ready / SEO First</p>
+      <h1>検索流入を増やすための高速SEOサイト</h1>
+      <p class="lead">静的HTML、明確な情報設計、構造化データ、メタ情報、サイトマップを最初から備えた、Cloudflareデプロイ前提のWebサイトです。</p>
+      <div class="hero-actions">
+        <a class="button" href="#features">SEO設計を見る</a>
+        <a class="button secondary" href="#deploy">デプロイ準備</a>
+      </div>
+    </section>
+    <section id="features" class="section">
+      <h2>SEOを重視した実装</h2>
+      <div class="cards">
+        <article>
+          <h3>検索意図に沿う見出し構造</h3>
+          <p>h1は1つに絞り、h2・h3で情報を階層化。クローラーとユーザーの双方が理解しやすい構造にしています。</p>
+        </article>
+        <article>
+          <h3>構造化データとOGP</h3>
+          <p>ProfessionalServiceとFAQPageのJSON-LD、SNS共有用のOGP/Twitterメタを標準搭載しています。</p>
+        </article>
+        <article>
+          <h3>高速表示を優先</h3>
+          <p>依存ライブラリなしの軽量CSSと静的配信で、Cloudflare CDNの強みを活かせる構成です。</p>
+        </article>
+      </div>
+    </section>
+    <section id="process" class="section split">
+      <div>
+        <h2>制作方針</h2>
+        <p>主要キーワード、関連語、ユーザー課題、解決策、信頼要素を1ページ内で自然に説明し、検索エンジンに内容が伝わるページを目指します。</p>
+      </div>
+      <ol class="steps">
+        <li>本番ドメインにcanonicalとサイトマップURLを変更</li>
+        <li>Cloudflare PagesにGitリポジトリを接続</li>
+        <li>独自ドメイン、HTTPS、リダイレクトを確認</li>
+        <li>Search Consoleにサイトマップを送信</li>
+      </ol>
+    </section>
+    <section id="deploy" class="section highlight">
+      <h2>Cloudflare Pages向けの公開準備済み</h2>
+      <p><code>wrangler.toml</code>、<code>_headers</code>、<code>_redirects</code>、<code>robots.txt</code>、<code>sitemap.xml</code>を用意しています。公開前にexample.comを実ドメインへ置き換えてください。</p>
+    </section>
+    <section id="faq" class="section">
+      <h2>よくある質問</h2>
+      <details>
+        <summary>Cloudflare PagesはSEOに向いていますか？</summary>
+        <p>静的HTMLをCDNで高速配信できるため、表示速度を高めやすくSEO施策の土台に向いています。</p>
+      </details>
+      <details>
+        <summary>公開前に必ず変更する項目は？</summary>
+        <p>canonical、OGP URL、robots.txt、sitemap.xml、_redirects内のドメインを本番ドメインへ変更してください。</p>
+      </details>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2026 SEO First Cloudflare Site. All rights reserved.</p>
+  </footer>
+</body>
+</html>
