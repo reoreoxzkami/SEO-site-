@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" role="img" aria-labelledby="title desc">
+  <title id="title">SEO First Cloudflare Site</title>
+  <desc id="desc">SEOを最優先にしたCloudflare Pages向けサイト</desc>
+  <rect width="1200" height="630" fill="#0f766e"/>
+  <circle cx="980" cy="120" r="180" fill="#14b8a6" opacity=".45"/>
+  <text x="80" y="230" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="700">SEO First</text>
+  <text x="80" y="330" fill="#d1fae5" font-family="Arial, sans-serif" font-size="44">Cloudflare Pages Ready</text>
+  <text x="80" y="420" fill="#ffffff" font-family="Arial, sans-serif" font-size="34">高速・構造化データ・サイトマップ対応</text>
+</svg>

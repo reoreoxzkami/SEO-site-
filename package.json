@@ -1,0 +1,19 @@
+{
+  "name": "seo-first-cloudflare-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SEO-first static website ready for Cloudflare Pages deployment.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check:seo": "node scripts/check-seo.mjs",
+    "test": "npm run build && npm run check:seo"
+  },
+  "keywords": [
+    "seo",
+    "cloudflare-pages",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}
